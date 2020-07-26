@@ -11187,7 +11187,7 @@ h5,
   display: block;
 }
 .domain-form .domain-name {
-  width: calc(100% - 300px);
+  width: 100%;
 }
 @media (max-width: 767.98px) {
   .domain-form .domain-name {
@@ -11199,7 +11199,7 @@ h5,
 }
 @media (max-width: 767.98px) {
   .domain-form .domain-select {
-    width: 100%;
+    width: 30%;
   }
 }
 .domain-form .form-group {
@@ -11273,7 +11273,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .domain-form .search-domain {
-    width: calc(100% - 80px);
+    width: calc(100% - 10px);
   }
 }
 .domain-form .icon {
