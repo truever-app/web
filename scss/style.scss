@@ -775,7 +775,6 @@ h5,
   }
   .media-body {
     @include transition(0.3s);
-    width: calc(100% - 80px);
     h3 {
       font-size: 20px;
       font-weight: 700;
