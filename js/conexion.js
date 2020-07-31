@@ -12,6 +12,9 @@ xhr.onreadystatechange = function () {
     }
   }
 };
+var data = JSON.stringify({ url: "www.pulzo.com"});
+xhr.send(data);
+
 var xhr2 = new XMLHttpRequest();
 var url = "http://181.60.134.38:2555/fakeapi/";
 xhr2.open("POST", url, true);
@@ -26,8 +29,7 @@ xhr2.onreadystatechange = function () {
     }
   }
 };
-var data = JSON.stringify({ url: domain });
-xhr.send(data);
+
 
 
 document.getElementById("domain").textContent = window.location.hostname;
