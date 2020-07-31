@@ -31,7 +31,7 @@
       id="ftco-navbar"
     >
       <div class="container">
-        <a class="navbar-brand" href="/" style="font-size: 30px;">truever</a>
+        <a class="navbar-brand" href="index.html" style="font-size: 30px;">truever</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,13 +47,13 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a href="/" class="nav-link">Home</a>
+              <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#about" class="nav-link">About us</a>
+              <a href="index.html/#about" class="nav-link">About us</a>
             </li>
             <li class="nav-item cta">
-              <a href="#application" class="nav-link applicationref"
+              <a href="#search" class="nav-link applicationref"
                 ><span>Use now</span></a
               >
             </li>
@@ -62,45 +62,58 @@
       </div>
     </nav>
     <!-- END nav -->
-    <div class="hero-wrap js-fullheight">
-      <div class="overlay"></div>
-      <div class="container">
-        <div
-          class="row py d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end"
-        >
-          <div class="col-lg-6 py-5 d-flex align-items-center ftco-animate">
-            <div class="text mt-5">
-              <h1 class="mb-3" style="font-size: 32px;">
-                <span>Here are the results obtained for: </span>
-                <span style="text-align: center;" id="domain"></span>
-              </h1>
-            </div>
-            <a name="link_seccion"></a>
+    <section>
+
+      <div class="hero-wrap js-fullheight container">
+        <div class="row d-md-flex slider-text align-items-center">
+          <div class="col-lg-6 text-center align-items-center ftco-animate">
+              <h1 style="font-size: 32px;">Resultados del análisis</h1>
+              <h2 id="article_title">Esto es un texto largo de prueba que representa el posible título de una noticia</h2>
           </div>
-          <img
-            class="col-md-6 text-center heading-section ftco-animate"
-            src="images/detailsView.svg"
-            alt=""
-          />
-        </br>
-        <div class="row align-items-center" >
-          <div class="col-2" >
-            <h1 style="font-size: 32px;"><span style="text-align: center;">Article URL: </span></h1>
+          <div class="col-lg-6">
+            
+            <img
+              class="img-fluid embed-responsive ftco-animate"
+              src="images/detailsView.svg"
+              alt="">
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="scroll-downs">
+            <div class="mousey">
+              <div class="scroller"></div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+
+    </section>
+    
+
+    <!-- ACÁ SE MUESTRA LA INFORMACIÓN-->
+
+    <section class="results ftco-section bg-light">
+
+      <div class="container">
+        
+        <div class="row align-items-center">
+          <div class="col-2">
+            <h1 style="font-size: 32px;"><span style="text-align: center;">URL: </span></h1>
           </div>
           <div class="col-8 ">
             <span style="text-align: center; font-size: 20px;" id="domainArticle"></span>
           </div>
         </div>
-        </div>
-        
-        <div class="row align-items-center"></div>
+
       </div>
-      
-    </div>
-    <a name="hero"></a>
-    <!-- ACÁ SE MUESTRA LA INFORMACIÓN-->
+    </section>
+
+
     <div>
-      <div class="overlay"></div>
       <div class="container">
         <div
           class="row py d-md-flex no-gutters slider-text align-items-center js-fullheight"
@@ -284,6 +297,7 @@
         </div>
       </div>
     </div>
+
     <br />
     <br />
     <br />
@@ -291,40 +305,10 @@
     <br />
     <br />
     <br />
+
+
     <!-- INICIO FOOTER-->
-    <section class="ftco-section ftco-partner">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner"
-              ><img
-                src="images/logos/devpost.svg"
-                style="width: 150px;"
-                class="img-fluid"
-                alt="Universidad de los Andes"
-            /></a>
-          </div>
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner"
-              ><img
-                src="images/logos/sceenic.png"
-                style="width: 150px;"
-                class="img-fluid"
-                alt="Sceenic"
-            /></a>
-          </div>
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner"
-              ><img
-                src="images/logos/uniandes.png"
-                style="width: 150px;"
-                class="img-fluid"
-                alt="Departamento de Ingenieria de Sistemas"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
