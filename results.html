@@ -82,9 +82,20 @@
             src="images/detailsView.svg"
             alt=""
           />
+        </br>
+        <div class="row align-items-center" >
+          <div class="col-2" >
+            <h1 style="font-size: 32px;"><span style="text-align: center;">Article URL: </span></h1>
+          </div>
+          <div class="col-8 ">
+            <span style="text-align: center; font-size: 20px;" id="domainArticle"></span>
+          </div>
         </div>
+        </div>
+        
         <div class="row align-items-center"></div>
       </div>
+      
     </div>
     <a name="hero"></a>
     <!-- ACÁ SE MUESTRA LA INFORMACIÓN-->
@@ -190,7 +201,8 @@
                   </h3>
                   <p class="mb-0" style="text-align: center; font-size: 15px;">
                     this is all the information about the content of the page
-                  </p>
+                  </p></br>
+                  <p id="articletitle"></p>
                 </div>
                 <div class="col-8">
                   <!-- contenido sobre dominio -->
@@ -211,42 +223,55 @@
                             "
                           >
                             <div
-                              class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate align-items-center"
+                            class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate align-items-center"
                             >
                               <div class="block-18 text-center">
                                 <div class="text">
-                                  <strong class="number" data-number="10"
+                                  <strong class="number" id="rating"
                                     >0</strong
                                   >
-                                  <span>Fake result</span>
+                                  <span>Rating</span>
                                 </div>
                               </div>
                             </div>
                             <div
-                              class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
+                            class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate align-items-center"
                             >
                               <div class="block-18 text-center">
                                 <div class="text">
-                                  <strong class="number" style="color: white;"
-                                    >Aliens</strong
+                                  <strong class="number" id="isfake"
+                                    >0</strong
                                   >
-                                  <span>Imparciality</span>
+                                  <span>Is fake?</span>
                                 </div>
                               </div>
                             </div>
+                            <div
+                            class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate align-items-center"
+                            >
+                              <div class="block-18 text-center">
+                                <div class="text">
+                                  <strong class="number" id="isbiased"
+                                    >0</strong
+                                  >
+                                  <span>Is Biased?</span>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                            class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate align-items-center"
+                            >
+                              <div class="block-18 text-center">
+                                <div class="text">
+                                  <strong class="number" id="isclickbait"
+                                    >0</strong
+                                  >
+                                  <span>Is clickbait?</span>
+                                </div>
+                              </div>
+                            </div>
+                              
                             <p></p>
-                            <div
-                              class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate"
-                            >
-                              <div class="block-18 text-center">
-                                <div class="text">
-                                  <strong class="number" style="color: white;"
-                                    >Community</strong
-                                  >
-                                  <span>Clickbait result</span>
-                                </div>
-                              </div>
-                            </div>
                           </div>
                         </div>
                       </div>
