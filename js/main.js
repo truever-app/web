@@ -289,4 +289,29 @@ AOS.init({
 
     fixedContentPos: false,
   });
+
+  $("#submitbutton").click(function () {
+    var articulo = $('#articulostr').val();
+    console.log('entro '+ articulo);
+    startAnalizeProcess(articulo);
+  });
+
+  
+
+  
+
 })(jQuery);
+
+
+
+console.log("entra a main.js");
+console.log(localStorage.getItem("urlArticulo") + "este es el url que guardo");
+
+function startAnalizeProcess(urlArticulo) {
+  setTimeout(indexToResults(urlArticulo),1000);
+  localStorage.setItem("urlArticulo", urlArticulo);
+}
+
+function indexToResults(urlArticulo) {
+  window.location.assign("./results.html")
+}
