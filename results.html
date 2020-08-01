@@ -97,18 +97,20 @@
     <!-- ACÁ SE MUESTRA LA INFORMACIÓN-->
 
     <section class="results ftco-section bg-light">
-
       <div class="container">
-        
-        <div class="row align-items-center">
-          <div class="col-2">
-            <h1 style="font-size: 32px;"><span style="text-align: center;">URL: </span></h1>
-          </div>
-          <div class="col-8 ">
-            <span style="text-align: center; font-size: 20px;" id="domainArticle"></span>
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-lg-12 p-5 ftco-wrap ftco-animate">
+            <form onsubmit="return false" class="domain-form d-flex mb-3">
+              <div class="form-group domain-name">
+                <input size="30" type="text" id="articulostr" class="form-control name px-4"
+                  placeholder="Just paste the link of an article..." />
+              </div>
+              <div class="form-group domain-select d-flex">
+                <input type="submit" id="submitbutton" class="search-domain btn btn-primary text-center" />
+              </div>
+            </form>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -431,6 +433,6 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
-    <script src="./js/conexion.js"></script>
+    <script src="js/conexion.js"></script>
   </body>
 </html>

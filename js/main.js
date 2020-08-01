@@ -291,27 +291,32 @@ AOS.init({
   });
 
   $("#submitbutton").click(function () {
-    var articulo = $('#articulostr').val();
-    console.log('entro '+ articulo);
+    var articulo = $("#articulostr").val();
     startAnalizeProcess(articulo);
   });
-
-  
-
-  
-
 })(jQuery);
 
-
-
-console.log("entra a main.js");
-console.log(localStorage.getItem("urlArticulo") + "este es el url que guardo");
-
 function startAnalizeProcess(urlArticulo) {
-  setTimeout(indexToResults(urlArticulo),1000);
-  localStorage.setItem("urlArticulo", urlArticulo);
+  if (is_url(urlArticulo)) {
+    setTimeout(indexToResults(urlArticulo), 1000);
+  } else {
+    alert(
+      "Uy gonorrea! Esto no es una Url. Mande una URL, malparido. ¿O es que me quería confundir? Pues no hpta. Yo sí soy más inteligente que usted"
+    );
+  }
 }
 
 function indexToResults(urlArticulo) {
-  window.location.assign("./results.html")
+  window.location.assign("./results.html?" + urlArticulo);
+}
+
+// Check URL
+
+function is_url(str) {
+  regexp = /^(?:(?:https?|ftp):\/\/)?(?:(?!(?:10|127)(?:\.\d{1,3}){3})(?!(?:169\.254|192\.168)(?:\.\d{1,3}){2})(?!172\.(?:1[6-9]|2\d|3[0-1])(?:\.\d{1,3}){2})(?:[1-9]\d?|1\d\d|2[01]\d|22[0-3])(?:\.(?:1?\d{1,2}|2[0-4]\d|25[0-5])){2}(?:\.(?:[1-9]\d?|1\d\d|2[0-4]\d|25[0-4]))|(?:(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)(?:\.(?:[a-z\u00a1-\uffff0-9]-*)*[a-z\u00a1-\uffff0-9]+)*(?:\.(?:[a-z\u00a1-\uffff]{2,})))(?::\d{2,5})?(?:\/\S*)?$/;
+  if (regexp.test(str)) {
+    return true;
+  } else {
+    return false;
+  }
 }
