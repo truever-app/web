@@ -300,9 +300,7 @@ function startAnalizeProcess(urlArticulo) {
   if (is_url(urlArticulo)) {
     setTimeout(indexToResults(urlArticulo), 1000);
   } else {
-    alert(
-      "Uy gonorrea! Esto no es una Url. Mande una URL, malparido. ¿O es que me quería confundir? Pues no hpta. Yo sí soy más inteligente que usted"
-    );
+    alert("Pronto funcionará también :)");
   }
 }
 
