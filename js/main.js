@@ -300,7 +300,7 @@ function startAnalizeProcess(urlArticulo) {
   if (is_url(urlArticulo)) {
     setTimeout(indexToResults(urlArticulo), 1000);
   } else {
-    alert("Pronto funcionará también :)");
+    alert("Por favor ingrese solamente URLs");
   }
 }
 

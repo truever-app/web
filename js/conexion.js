@@ -1,5 +1,28 @@
 window.onload = getInfo();
 
+var url = "a";
+
+var getParams = function (url) {
+  var params = {};
+  var parser = document.createElement("a");
+  parser.href = url;
+  var query = parser.search.substring(1);
+  var vars = query.split("&");
+  for (var i = 0; i < vars.length; i++) {
+    var pair = vars[i].split("=");
+    params[pair[0]] = decodeURIComponent(pair[1]);
+  }
+  return params;
+};
+
+function getInfo() {
+  url = window.location.href;
+
+  if (url.includes("results.html?") || url.includes("results?")) {
+    console.log(getParams);
+  } else console.log("Not a question");
+}
+
 function changeFrontDataArticle(title, rating, isfake, isbiased, isclickbait) {
   document.getElementById("#rating").textContent = rating;
   document.getElementById("#isfake").textContent = isfake;
