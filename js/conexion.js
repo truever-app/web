@@ -1,26 +1,36 @@
 window.onload = getInfo();
 
-var url = "a";
-
-var getParams = function (url) {
-  var params = {};
-  var parser = document.createElement("a");
-  parser.href = url;
-  var query = parser.search.substring(1);
-  var vars = query.split("&");
-  for (var i = 0; i < vars.length; i++) {
-    var pair = vars[i].split("=");
-    params[pair[0]] = decodeURIComponent(pair[1]);
-  }
-  return params;
-};
-
 function getInfo() {
-  url = window.location.href;
+  unparsedQuery = window.location.search;
 
-  if (url.includes("results.html?") || url.includes("results?")) {
-    console.log(getParams);
-  } else console.log("Not a question");
+  if (unparsedQuery) {
+    try {
+      const urlParams = new URLSearchParams(unparsedQuery);
+      var query = urlParams.get("url");
+      var url = new URL(query).hostname;
+
+      console.log("Getting info for: " + url);
+      trueapiReq(url);
+    } catch (error) {
+      console.log(error);
+    }
+  } else console.log("No query");
+}
+
+function trueapiReq(url) {
+  var settings = {
+    url: "https://truever.herokuapp.com/trueapi/",
+    method: "POST",
+    timeout: 0,
+    headers: {
+      "Content-Type": "application/json",
+    },
+    data: JSON.stringify({ url: url }),
+  };
+
+  $.ajax(settings).done(function (response) {
+    return response;
+  });
 }
 
 function changeFrontDataArticle(title, rating, isfake, isbiased, isclickbait) {

@@ -305,7 +305,7 @@ function startAnalizeProcess(urlArticulo) {
 }
 
 function indexToResults(urlArticulo) {
-  window.location.assign("./results.html?" + urlArticulo);
+  window.location.assign("./analysis.html?url=" + urlArticulo);
 }
 
 // Check URL
