@@ -10928,7 +10928,7 @@ h5,
 @media (max-width: 991.98px) {
   .hero-wrap .slider-text {
     text-align: center;
-    height: 750px;
+    height: auto;
   }
 }
 .hero-wrap .slider-text .one-third {
