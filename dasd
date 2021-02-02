@@ -1,0 +1,334 @@
+[33mcommit 511ce59b7599e61de1d31bf8ad5e7735299e87c5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Mon Dec 14 17:01:45 2020 -0500
+
+    Corrección de textos
+
+[33mcommit e96644e38f2f78e39b8f9f7b419ea851b8d1bb71[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Mon Dec 14 16:17:52 2020 -0500
+
+    Cambio de URL
+
+[33mcommit ee7da3773e5436669e2902ea58fbd9cbab94e60b[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Mon Dec 14 15:53:10 2020 -0500
+
+    Ay, Muchas cosas wuuu
+
+[33mcommit 46476213e06743ba08d886834e96103f49b043a6[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Dec 12 19:54:09 2020 -0500
+
+    Corrección de sizing volunteer
+
+[33mcommit 6aad9ec28bc0726711adaa5ab821b9fc70f85072[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Dec 12 19:25:27 2020 -0500
+
+    Adición de espacio vertical en formulario
+
+[33mcommit 7facf171a613ee4103129027dad7da5596ad01d9[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Dec 12 19:21:37 2020 -0500
+
+    Corrección título voluntarios
+
+[33mcommit 4566a3caeb2fda5fa463ad374f828836a9b60e31[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Dec 12 19:19:41 2020 -0500
+
+    Adición de registro de voluntariado.
+
+[33mcommit 5cf1b4a921baa5a49438fb49ced672e4425536c2[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Tue Dec 8 05:50:54 2020 -0500
+
+    Actualización de textos en index.
+
+[33mcommit 95a40f2d4cca265e4ed96a4318e6c9d4a17c87c9[m
+Merge: 517ffbc 6b11759
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Mon Aug 10 08:33:16 2020 -0500
+
+    Merge branch 'master' of https://github.com/truever-app/web into master
+
+[33mcommit 517ffbcb6925a23303e668d18f5a5c27cc8d277c[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Mon Aug 10 08:33:09 2020 -0500
+
+    Actualización de la pagina de analisis
+
+[33mcommit 6b117595e5d0fcf83da9b3fefe04801e64034fcb[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Wed Aug 5 17:31:20 2020 -0500
+
+    con error ortografico corregido
+
+[33mcommit faaa9ef34c8358f2bdd0f2f88e6bc348cc1fe3a7[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Aug 1 03:12:18 2020 -0500
+
+    Página de descarga :)
+
+[33mcommit a2ea6495d2d77e9f2b37a50de0f873b5139110df[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 31 20:15:02 2020 -0500
+
+    con correcciones
+
+[33mcommit 60c7809aa88c3b78d1e8ecae075704af1ce42980[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 31 19:56:25 2020 -0500
+
+    con prueba ahora
+
+[33mcommit a5caa10e4ad676b52552de0dbe2b15dab6581c9e[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 31 19:52:00 2020 -0500
+
+    en español
+
+[33mcommit b8481412bccafaf89201b34197aaeb60d6d36dd7[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 31 19:19:55 2020 -0500
+
+    Correción de alerta JS
+
+[33mcommit d98ac4090103ee42c8471868746dbf2afa808204[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 31 19:17:49 2020 -0500
+
+    PUSH CON LA EXTENSIÓN!
+    
+    Co-authored-by: David Monsalve <jd.monsalve@uniandes.edu.co>
+    Co-authored-by: df.foreroc <53886855+diegoforerocruz@users.noreply.github.com>
+
+[33mcommit f97daefd6d78cdacc4ca2bae138037eeb04271c5[m
+Merge: 4bc1a3d 7be448e
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 31 14:45:37 2020 -0500
+
+    Merge branch 'master' of https://github.com/truever-app/frontend-client-web
+
+[33mcommit 4bc1a3dcc8d6cf657172618587c4cba76fc529d4[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 31 14:42:51 2020 -0500
+
+    Diseño de results
+
+[33mcommit 7be448e65f919e569f444639ef6e45ac9085a5fd[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 31 13:32:04 2020 -0500
+
+    probar json
+
+[33mcommit e0f61b7ba6236c9bf15e900d60cf3e40488041f1[m
+Merge: 1305fe2 88dea1a
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 31 06:47:47 2020 -0500
+
+    Merge branch 'master' of https://github.com/truever-app/frontend-client-web
+
+[33mcommit 1305fe282410b02bcb9d663d61cf059a3381ff2c[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 31 06:47:43 2020 -0500
+
+    Cambio de urls
+
+[33mcommit 88dea1a8f4e9a0c39c710820800ec50c641c371b[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Thu Jul 30 23:58:20 2020 -0500
+
+    con foto chimba :)
+
+[33mcommit 9834778dc768f0c61c126e902d2148eb69845571[m
+Merge: 1bcc8df e7484d1
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Thu Jul 30 21:07:21 2020 -0500
+
+    Merge branch 'master' of https://github.com/truever-app/frontend-client-web
+
+[33mcommit 1bcc8dfecc1d98bea3d6567482982e18f3457f66[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Thu Jul 30 21:05:30 2020 -0500
+
+    Adición del equipo a la pagina web
+
+[33mcommit e7484d13222746757153d103ceaeef442e2565fc[m
+Author: Juan Lucas Ibarra Sierra <jl.ibarra@uniandes.edu.co>
+Date:   Thu Jul 30 20:55:09 2020 -0500
+
+    URL estatica
+
+[33mcommit c16420f227ff417799bc39dbbf75526b01a82314[m
+Author: Diego Fernando Forero Cruz <df.foreroc@uniandes.edu.co>
+Date:   Thu Jul 30 19:00:01 2020 -0500
+
+    aiudaaaaaaa saenz
+
+[33mcommit 24b12a8ac4ba8ee3be15fdf469033fa1610788c7[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Thu Jul 30 00:20:54 2020 -0500
+
+    cambios nuevos
+
+[33mcommit 1203aeb14127b924f7af7599a105bda1e075bc89[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Wed Jul 29 23:51:40 2020 -0500
+
+    con nueva pagina
+
+[33mcommit da9eeed42989eb796c0849490e160baac9674180[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Sun Jul 26 12:41:24 2020 -0500
+
+    con corrección de algunos erroes visuales
+
+[33mcommit db80a964e1cfb9d2a70b3e91936d1012e7000af6[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Jul 25 20:25:41 2020 -0500
+
+    Deleted MX file
+
+[33mcommit e5b7b03a3763830284fd729793accce3ef6e99c2[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Jul 25 20:22:51 2020 -0500
+
+    Fixed extension @ MX file
+
+[33mcommit 4668ccdc06da8b5e4d74e9b3f947ab676aa8d996[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Jul 25 20:20:20 2020 -0500
+
+    Add MX verification
+
+[33mcommit 2b373015ffe2de7c187ab51fc87c118415856ec3[m
+Merge: b445464 afd571d
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Jul 25 19:05:59 2020 -0500
+
+    Merge branch 'master' of https://github.com/truever-app/frontend-client-web
+
+[33mcommit b44546482d0f4f5115b7a53b5c44da9cc367a6d6[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Jul 25 19:05:54 2020 -0500
+
+    Fix del tamaño de la barra de busqueda
+
+[33mcommit afd571df37cc54bc74928ca941a90762408fc81c[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Sat Jul 25 00:58:07 2020 -0500
+
+    con footer actualizado
+
+[33mcommit 597f6e234b6d59e82ff03c4a9c5ee629923297ac[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Sat Jul 25 00:33:30 2020 -0500
+
+    Un monton de cositas, pero funciona xd
+
+[33mcommit b903675825ba78d5ad7431c8b755f2b75baafd69[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 24 23:42:46 2020 -0500
+
+    Responsiveness en header del index
+
+[33mcommit 45ef6a89ce28fd13d14b67060b760b376d32361b[m
+Merge: c07b959 345fdfa
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 24 22:57:19 2020 -0500
+
+    nueva imagen
+
+[33mcommit c07b959c617cb9267c66cfa8cdaa750dd3341205[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 24 22:56:33 2020 -0500
+
+    nueva imagen
+
+[33mcommit 345fdfa30b4bec800e80e02636982a9e301e6e04[m
+Author: Santiago Sáenz <smezaqs@gmail.com>
+Date:   Fri Jul 24 22:17:06 2020 -0500
+
+    Create CNAME
+
+[33mcommit 4aac65e95c76b5c9065450a7e00821e6c817eecf[m
+Author: Santiago Sáenz <smezaqs@gmail.com>
+Date:   Fri Jul 24 22:16:51 2020 -0500
+
+    Delete CNAME
+
+[33mcommit da6be0e1146465c0dff9437b748e5f57e39e2259[m
+Author: Santiago Sáenz <smezaqs@gmail.com>
+Date:   Fri Jul 24 22:13:06 2020 -0500
+
+    Create CNAME
+
+[33mcommit bd7235dae5e59cdda8643e5f6ad94dc337c562b7[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 24 22:05:10 2020 -0500
+
+    cambios finales
+
+[33mcommit ce2bbe51025ad47723a7454c6b93c1f44a9eff45[m
+Merge: 155b5a6 45acb44
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 24 20:27:36 2020 -0500
+
+    con cambios en referencias
+
+[33mcommit 155b5a6ce1b65eb5874199d5ebd6bc3edd20087d[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 24 20:26:52 2020 -0500
+
+    xd
+
+[33mcommit 45acb447d1b9a7724aa2b74d5092284ef96cb682[m
+Merge: 775439d b443b9b
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 24 20:25:59 2020 -0500
+
+    Merge branch 'master' of https://github.com/truever-app/frontend-client-web
+
+[33mcommit 775439d84e1cdfb34af83c156325bdb915978124[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 24 20:25:44 2020 -0500
+
+    Cambios en el header :)
+
+[33mcommit b443b9b46fe8127c37b5ba017edc3aa04dc795fe[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 24 20:25:08 2020 -0500
+
+    cambios xd
+
+[33mcommit f4cb257561fedb5580afb6b0e0a7346efe3c9bde[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 24 19:13:09 2020 -0500
+
+    Correción posición de texto
+
+[33mcommit 75dff2ab22baabcfa6d98dca112d0ab1798088db[m
+Author: sbezaws <smezaqs@gmail.com>
+Date:   Fri Jul 24 19:03:07 2020 -0500
+
+    Correción de tamaño del buscador
+
+[33mcommit 236ea70a96dcf1acc10c1d6e9806ed3adb5084f9[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 24 18:53:41 2020 -0500
+
+    avances index
+
+[33mcommit 2334720d0ac6d229cf1be4cf7dc26a1fa762930c[m
+Author: David <jd.monsalve@uniandes.edu.co>
+Date:   Fri Jul 24 17:11:19 2020 -0500
+
+    primera instancia
+
+[33mcommit 734a66522c8175e184cacef36874636931f95b49[m
+Author: David Monsalve <53881240+juanda2024@users.noreply.github.com>
+Date:   Fri Jul 24 17:09:36 2020 -0500
+
+    Initial commit
