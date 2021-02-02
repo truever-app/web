@@ -10563,13 +10563,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* Team section */
 .scrolling-wrapper {
-  overflow-x: auto;
+  overflow: auto;
   scrollbar-width: none;
 }
 
-.scrolling-wrapper ::-webkit-scrollbar {
+.scrolling-wrapper::-webkit-scrollbar {
   display: none;
-  /* Chrome Safari */
 }
 
 .section-team {

@@ -28,12 +28,16 @@ $secondary: #38d39f;
 
 /* Team section */
 
-.scrolling-wrapper {
-  overflow-x: auto;
-  ::-webkit-scrollbar { 
-    display: none; /* Chrome Safari */
-  }
+@mixin scrollbars($color: var(--purple), $radius: 20px) {
+  overflow: auto;
   scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.scrolling-wrapper {
+  @include scrollbars;
 }
 
 .section-team {
